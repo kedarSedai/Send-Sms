@@ -9,7 +9,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
  const nexmo = new Nexmo({
-    apiKey: keys.apiKey,
+  //These keys are hidden you will get these from Nexmo
+    apiKey: keys.apiKey, 
     apiSecret: keys.apiSecret,
  });
 
