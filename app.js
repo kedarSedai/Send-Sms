@@ -3,7 +3,6 @@ const Nexmo = require('nexmo');
 const keys = require('./config/key')
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
-const socketio = require('socket.io');
 
 const app = express();
 
